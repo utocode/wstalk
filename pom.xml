@@ -26,11 +26,12 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.test.skip>true</maven.test.skip>
+        <spotbugs.skip>true</spotbugs.skip>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     </properties>
 
-    <name>WebSocket Plugin</name>
-    <description>A Build status publisher that notifies channels on WebSocket Client</description>
+    <name>Wstalk Plugin</name>
+    <description>A Build status publisher that notifies channels on WebSocket Client [VSCode]</description>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
 
     <dependencyManagement>
